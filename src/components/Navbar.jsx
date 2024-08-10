@@ -35,7 +35,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between gap-6">
             <div>
               <a href="#">
-                <img width={120} src={logo} alt="logo image" />
+                <img width={30} src={logo} alt="logo image" />
               </a>
             </div>
             <div>
@@ -59,7 +59,7 @@ const Navbar = () => {
         <div className="rounded-lg px-4 backdrop-blur-xl lg:hidden">
           <div className="flex items-center justify-between">
             <a href="#">
-              <img src={logo} alt="logo" width={115} className="m-2" />
+              <img src={logo} alt="logo" width={23} className="m-2" />
             </a>
             <div className="flex items-center">
               <button

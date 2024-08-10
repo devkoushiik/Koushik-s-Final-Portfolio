@@ -31,7 +31,7 @@ const Projects = () => {
         initial="offscreen"
         whileInView="onscreen"
         viewport={{ once: true }}
-        className="grid grid-cols-1 gap-4 w-[20rem] md:w-[44rem]  md:grid-cols-2 xl:grid-cols-3 lg:w-[50rem] lg:h-full xl:w-full"
+        className="grid grid-cols-1 h-auto gap-4 w-[20rem] md:w-[44rem]  md:grid-cols-2 xl:grid-cols-3 lg:w-[50rem] lg:h-full xl:w-full"
       >
         {/* initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -41,7 +41,7 @@ const Projects = () => {
           <motion.div
             variants={cardVariants}
             key={project.id}
-            className="group relative overflow-hidden rounded-3xl"
+            className="group relative overflow-hidden h-96 rounded-3xl"
           >
             <motion.img
               whileHover={{ scale: 1.1, borderRadius: 2 }}
@@ -72,6 +72,7 @@ const Projects = () => {
               >
                 {project.description}
               </motion.p>
+
               <a
                 href={project.live.link}
                 target="_blank"
