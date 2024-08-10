@@ -1,2 +1,2 @@
 # Visit my portfolio
-devkoushiik.netlify.app
+https://devkoush.netlify.app
