@@ -154,18 +154,18 @@ export const EXPERIENCES = [
 
 export const EDUCATION = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "September 2012 - June 2014",
+    degree: "Diploma in Computer Technology",
+    institution: "Magura Polytechnic Institute",
+    duration: "January 2017 - June 2022",
     description:
-      "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
+      "Specialized in Human-Computer Interaction and Software Engineering. Completed an internship at Creative IT institute based in Bangladesh. Participated in various projects involving frontend development & backend development. Completed from Magura Polytechnic Institute with junior assistant engineering degree.",
   },
   {
-    degree: "Bachelor of Science in Information Technology",
-    institution: "University of California, Berkeley",
-    duration: "September 2008 - June 2012",
+    degree: "Bachelor of science in Computer Science and Engineering",
+    institution: "Bangladesh University of Business and Technology - BUBT",
+    duration: "August 2022 - July 2026",
     description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+      "Focused on Front-end development. Actively involved in coding clubs and hackathons, where I have developed several web applications using HTML, CSS, JavaScript, and React.js. Completed a fullstack project on developing an e-commerce platform. I am not graduated yet, it is on progress",
   },
 ];
 

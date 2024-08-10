@@ -21,8 +21,10 @@ const Education = () => {
           className="mb-6 p-10"
         >
           <h3 className="text-xl font-semibold">{edu.degree}</h3>
+          <br />
           <p className="text-lg">{edu.institution}</p>
           <p className="text-sm text-stone-300">{edu.duration}</p>
+          <br />
           <p className="mt-2">{edu.description}</p>
         </motion.div>
       ))}
