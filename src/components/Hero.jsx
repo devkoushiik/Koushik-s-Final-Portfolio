@@ -1,7 +1,6 @@
 import { HERO } from "../constants";
 import koushikImg from "../assets/koushik.jpg";
 import { motion } from "framer-motion";
-
 const Hero = () => {
   return (
     <div className="flex min-h-screen flex-wrap items-center">
