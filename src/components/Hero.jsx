@@ -21,6 +21,11 @@ const Hero = () => {
           {HERO.greet}
         </p>
         <p className="mb-8 p-2 text-xl">{HERO.description}</p>
+        <div className="flex justify-center bg-stone-100/20 mb-6 py-4 text-white w-[12rem] md:w-1/2 items-center md:mx-auto rounded-full">
+          <a href="/cv.pdf" download>
+            <button>Download CV</button>
+          </a>
+        </div>
       </motion.div>
       <div className="w-full md:w-1/2 lg:p-8 flex justify-end">
         <motion.div
@@ -36,7 +41,7 @@ const Hero = () => {
             src={koushikImg}
             width={550}
             height={550}
-            alt="Carl Frank"
+            alt="Koushik Ahmed"
             className="rounded-3xl"
           />
         </motion.div>

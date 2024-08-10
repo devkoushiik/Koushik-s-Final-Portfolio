@@ -3,7 +3,6 @@ import { SiTypescript } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
-
 import { SiRedux } from "react-icons/si";
 import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
@@ -123,6 +122,11 @@ export const SKILLS = [
   {
     icon: <SiRedux className="text-4xl text-red-600 lg:text-5xl" />,
     name: "Redux",
+    experience: "6+ month",
+  },
+  {
+    icon: <FaGithub className="text-4xl text-white lg:text-5xl" />,
+    name: "Git & Github",
     experience: "6+ month",
   },
 ];
