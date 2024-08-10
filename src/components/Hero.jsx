@@ -9,12 +9,12 @@ const Hero = () => {
           {HERO.greet}
         </p>
         <p className="mt-4 font-light text-xl p-4">I am, </p>
-        <div className="flex place-items-end text-2xl">
+        <div className="flex items-center">
           <motion.h2
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="p-3 text-4xl font-bold lg:my-3 md:text-[2.8rem] capitalize lg:text-[6.5rem] "
+            className="p-3 text-4xl font-bold lg:my-3 lg:p-2 md:text-[2.8rem] capitalize lg:text-[7rem]"
           >
             {HERO.name}
           </motion.h2>
@@ -22,6 +22,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
+            className="mt-[11px] md:mt-[17.5px] md:text-lg lg:mt-[65px]"
           >
             {HERO.lastName}
           </motion.span>
