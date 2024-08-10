@@ -9,8 +9,8 @@ import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
 import projectImage3 from "../assets/project3.png";
 import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
+// import projectImage5 from "../assets/project5.jpeg";
+// import projectImage6 from "../assets/project6.jpeg";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -35,51 +35,51 @@ export const HERO = {
 export const PROJECTS = [
   {
     id: 1,
-    name: "Personal Portfolio",
+    name: "E-Commerce Platform",
     description:
-      "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
+      "A personal portfolio website built with React and Tailwind CSS, Redux to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    live: {
+      preview: "For Preview Click Here",
+      link: "https://horizonxkoushik.netlify.app",
+    },
+    githubLink: "https://github.com/devkoushiik/Horizon_Ecommerce",
   },
   {
     id: 2,
-    name: "E-Commerce Platform",
+    name: "Pizza Delivery App",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+      "An e-commerce web application developed using React and Tailwind CSS, featuring a comprehensive product catalog, shopping cart, and checkout system.",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+    live: {
+      preview: "For Preview Click Here",
+      link: "https://pizzaxkoushik.netlify.app",
+    },
+    githubLink: "https://github.com/devkoushiik/Pizza_shop",
   },
   {
     id: 3,
-    name: "Task Management Tool",
+    name: "Cocktail hub",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+      "A Cocktail hub application built with React and React Query for efficient product view, and details, features like smooth web traveling, with immediate caching.",
     image: projectImage3,
-    githubLink: "https://github.com/user/task-management-tool",
+    live: {
+      preview: "For Preview Click Here",
+      link: "https://cocktail-koushik.netlify.app/",
+    },
+    githubLink: "https://github.com/devkoushiik/cocktail_hub",
   },
   {
     id: 4,
-    name: "Weather App",
+    name: "Cart Feature",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+      "A Cart Feature application built with React and Redux tool kit for efficient product carting, and details, features like add, remove, calculation.",
     image: projectImage4,
-    githubLink: "https://github.com/user/weather-app",
-  },
-  {
-    id: 5,
-    name: "Blog Platform",
-    description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
-    image: projectImage5,
-    githubLink: "https://github.com/user/blog-platform",
-  },
-  {
-    id: 6,
-    name: "Chat Application",
-    description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
-    image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
+    live: {
+      preview: "For Preview Click Here",
+      link: "https://rtkxkoushik.netlify.app",
+    },
+    githubLink: "https://github.com/devkoushiik/RTK_cart",
   },
 ];
 

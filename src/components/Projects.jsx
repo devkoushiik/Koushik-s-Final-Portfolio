@@ -73,6 +73,18 @@ const Projects = () => {
                 {project.description}
               </motion.p>
               <a
+                href={project.live.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300"
+              >
+                <div className="flex items-center">
+                  <span>{project.live.preview}</span>
+                  <MdArrowOutward />
+                </div>
+              </a>
+              <br />
+              <a
                 href={project.githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
