@@ -27,8 +27,10 @@ const WorkExperience = () => {
             className="rounded-xl border border-stone-50/30 bg-white/10 p-4"
           >
             <h3 className="text-2xl font-semibold">{experience.title}</h3>
+            <br />
             <p className="text-xl">{experience.company}</p>
-            <p className="text-sm text-stone-300">{experience.duration}</p>
+            <p className="text-sm text-stone-300 mt-3">{experience.duration}</p>
+            <br />
             <p className="mt-2 text-base">{experience.description}</p>
           </motion.div>
         ))}
