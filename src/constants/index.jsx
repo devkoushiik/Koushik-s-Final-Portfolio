@@ -89,27 +89,27 @@ export const BIO = [
 
 export const SKILLS = [
   {
-    icon: <FaHtml5 className="text-4xl text-blue-500 lg:text-5xl" />,
+    icon: <FaHtml5 className="text-4xl text-white lg:text-5xl" />,
     name: "HTML5",
     experience: "1+ year",
   },
   {
-    icon: <FaCss3Alt className="text-4xl text-blue-500 lg:text-5xl" />,
+    icon: <FaCss3Alt className="text-4xl text-white lg:text-5xl" />,
     name: "CSS3",
     experience: "1+ year",
   },
   {
-    icon: <SiTailwindcss className="text-4xl text-blue-500 lg:text-5xl" />,
+    icon: <SiTailwindcss className="text-4xl text-white lg:text-5xl" />,
     name: "Tailwind CSS",
     experience: "1+ year",
   },
   {
-    icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
+    icon: <RiReactjsLine className="text-4xl text-white lg:text-5xl" />,
     name: "React",
     experience: "6+ month",
   },
   {
-    icon: <SiTypescript className="text-4xl text-blue-500 lg:text-5xl" />,
+    icon: <SiTypescript className="text-4xl text-white lg:text-5xl" />,
     name: "TypeScript",
     experience: "6 month",
   },
@@ -120,7 +120,7 @@ export const SKILLS = [
   },
 
   {
-    icon: <SiRedux className="text-4xl text-red-600 lg:text-5xl" />,
+    icon: <SiRedux className="text-4xl text-white lg:text-5xl" />,
     name: "Redux",
     experience: "6+ month",
   },
