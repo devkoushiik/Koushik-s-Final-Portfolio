@@ -134,7 +134,7 @@ export const SKILLS = [
 export const EXPERIENCES = [
   {
     title: "Front-end developer",
-    company: "Freelance remote work. (not specific any.)",
+    company: "Freelance remote work.",
     duration: "July 2024 - Present",
     description:
       "As the Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
