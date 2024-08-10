@@ -11,9 +11,9 @@ const Hero = () => {
         transition={{ duration: 1 }}
         className="w-full md:w-1/2"
       >
-        <h2 className="my-8 p-2 text-4xl font-bold md:text-[2.8rem] lg:text-[4rem] ">
+        <h2 className="my-8 p-2 text-4xl font-bold md:text-[2.8rem] lg:text-[6.5rem] ">
           {HERO.name}
-          <span className="text-4xl ml-2 font-bold md:text-[2.8rem] lg:text-[4rem]">
+          <span className="text-4xl ml-2 font-bold md:text-[2.8rem] lg:text-[6.5rem]">
             {HERO.lastName}
           </span>
         </h2>
