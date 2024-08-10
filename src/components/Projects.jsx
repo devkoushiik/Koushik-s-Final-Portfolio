@@ -8,12 +8,12 @@ const Projects = () => {
       y: 300,
     },
     onscreen: {
-      y: 1,
-      rotate: -10,
+      y: 0,
       transition: {
         type: "spring",
         bounce: 0.4,
         duration: 0.8,
+        staggerChildren: 0.5,
       },
     },
   };
@@ -44,7 +44,7 @@ const Projects = () => {
             className="group relative overflow-hidden rounded-3xl"
           >
             <motion.img
-              whileHover={{ scale: 1.1 }}
+              whileHover={{ scale: 1.1, borderRadius: 2 }}
               src={project.image}
               alt={project.name}
               className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
