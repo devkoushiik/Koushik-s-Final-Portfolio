@@ -1,5 +1,10 @@
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa6";
+import { SiTypescript } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 
+import { SiRedux } from "react-icons/si";
 import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
 import projectImage3 from "../assets/project3.png";
@@ -9,10 +14,6 @@ import projectImage6 from "../assets/project6.jpeg";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -83,41 +84,46 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+  "I am a passionate Front-End Developer with expertise in React, TypeScript, and Next.js. With a strong foundation in building dynamic, responsive, and user-friendly web applications, I specialize in creating seamless user experiences that prioritize performance and accessibility. My approach combines clean, maintainable code with a keen eye for design, ensuring that each project I work on is both functional and visually appealing.",
+  "Whether collaborating with teams or taking the lead on solo projects, I am committed to delivering high-quality solutions that meet client needs and exceed expectations. If you're looking for a developer who can bring your vision to life, let's connect and make it happen!",
 ];
 
 export const SKILLS = [
   {
+    icon: <FaHtml5 className="text-4xl text-blue-500 lg:text-5xl" />,
+    name: "HTML5",
+    experience: "1+ year",
+  },
+  {
+    icon: <FaCss3Alt className="text-4xl text-blue-500 lg:text-5xl" />,
+    name: "CSS3",
+    experience: "1+ year",
+  },
+  {
+    icon: <SiTailwindcss className="text-4xl text-blue-500 lg:text-5xl" />,
+    name: "Tailwind CSS",
+    experience: "1+ year",
+  },
+  {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
-    experience: "2+ years",
+    experience: "6+ month",
+  },
+  {
+    icon: <SiTypescript className="text-4xl text-blue-500 lg:text-5xl" />,
+    name: "TypeScript",
+    experience: "6 month",
   },
   {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
-    experience: "1+ year",
+    experience: "3+ month",
   },
+
   {
-    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "MongoDB",
-    experience: "1.5+ years",
-  },
-  {
-    icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
-    name: "Redis",
-    experience: "1+ year",
-  },
-  {
-    icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "Node.js",
-    experience: "2+ years",
-  },
-  {
-    icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
-    name: "PostgreSQL",
-    experience: "1+ year",
+    icon: <SiRedux className="text-4xl text-red-600 lg:text-5xl" />,
+    name: "Redux",
+    experience: "6+ month",
   },
 ];
 
