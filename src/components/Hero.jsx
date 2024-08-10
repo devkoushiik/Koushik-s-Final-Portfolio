@@ -22,7 +22,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="mt-[14px] md:mt-[17.5px] md:text-lg lg:mt-[65px]"
+            className="mt-[15px] md:mt-[17.5px] md:text-lg lg:mt-[65px]"
           >
             {HERO.lastName}
           </motion.span>
