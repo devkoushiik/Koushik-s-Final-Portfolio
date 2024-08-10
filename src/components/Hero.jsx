@@ -5,28 +5,42 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <div className="flex min-h-screen flex-wrap items-center">
-      <motion.div
-        initial={{ opacity: 0, x: -100 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1 }}
-        className="w-full md:w-1/2"
-      >
-        <h2 className="my-8 p-2 text-4xl font-bold md:text-[2.8rem] lg:text-[6.5rem] ">
-          {HERO.name}
-          <span className="text-4xl ml-2 font-bold md:text-[2.8rem] lg:text-[6.5rem]">
-            {HERO.lastName}
-          </span>
-        </h2>
-        <p className="p-2 text-3xl tracking-tighter lg:text-4xl">
+      <div className="w-full md:w-1/2">
+        <p className="mt-6 p-3 text-3xl tracking-tighter lg:text-4xl">
           {HERO.greet}
         </p>
-        <p className="mb-8 p-2 text-xl">{HERO.description}</p>
+        <p className="mt-4 font-light text-xl p-4">I am, </p>
+        <div className="flex place-items-end text-2xl">
+          <motion.h2
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="p-3 text-4xl font-bold lg:my-3 md:text-[2.8rem] capitalize lg:text-[6.5rem] "
+          >
+            {HERO.name}
+          </motion.h2>
+          <motion.span
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+          >
+            {HERO.lastName}
+          </motion.span>
+        </div>
+
+        <p className="mb-8 p-3 text-xl">{HERO.description}</p>
         <div className="flex justify-center bg-stone-100/20 mb-6 py-4 text-white w-[12rem] md:w-1/2 items-center md:mx-auto rounded-full">
           <a href="/cv.pdf" download>
-            <button>Download CV</button>
+            <motion.button
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+            >
+              Download CV
+            </motion.button>
           </a>
         </div>
-      </motion.div>
+      </div>
       <div className="w-full md:w-1/2 lg:p-8 flex justify-end">
         <motion.div
           initial={{ opacity: 0, scale: 0.6 }}
