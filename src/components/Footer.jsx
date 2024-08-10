@@ -12,8 +12,8 @@ const Footer = () => {
           transition={{ duration: 1 }}
           src={logo}
           alt={logo}
-          width={200}
-          className="my-20"
+          width={50}
+          className="my-8"
         />
       </div>
       <div className="flex items-center justify-center gap-8">
