@@ -13,7 +13,6 @@ const Hero = () => {
           <motion.h2
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
             className="p-3 text-4xl font-bold lg:my-3 lg:p-2 md:text-[2.8rem] capitalize lg:text-[7rem]"
           >
             {HERO.name}
@@ -51,7 +50,6 @@ const Hero = () => {
           <motion.img
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 1 }}
             src={koushikImg}
             width={550}
             height={550}
