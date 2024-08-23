@@ -8,6 +8,7 @@ import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
 import projectImage3 from "../assets/project3.png";
 import projectImage4 from "../assets/project4.jpeg";
+import projectImage6 from "../assets/project7.jpg";
 // import projectImage5 from "../assets/project5.jpeg";
 // import projectImage6 from "../assets/project6.jpeg";
 
@@ -32,6 +33,18 @@ export const HERO = {
 };
 
 export const PROJECTS = [
+  {
+    id: 5,
+    name: "Game showcase Platform",
+    description:
+      "A game showcase website using the RAWG API, which allows users to browse and discover video games with detailed information like ratings, genres, and release dates.",
+    image: projectImage6,
+    live: {
+      preview: "For Preview Click Here",
+      link: "https://gamehubxkoushik.netlify.app",
+    },
+    githubLink: "https://github.com/devkoushiik/GameHub",
+  },
   {
     id: 1,
     name: "E-Commerce Platform",

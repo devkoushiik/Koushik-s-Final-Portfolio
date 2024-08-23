@@ -3,20 +3,6 @@ import { PROJECTS } from "../constants";
 import { MdArrowOutward } from "react-icons/md";
 
 const Projects = () => {
-  const cardVariants = {
-    offscreen: {
-      y: 300,
-    },
-    onscreen: {
-      y: 0,
-      transition: {
-        type: "spring",
-        bounce: 0.4,
-        duration: 0.8,
-        staggerChildren: 0.5,
-      },
-    },
-  };
   return (
     <section className="pt-20" id="projects">
       <motion.h2
@@ -38,8 +24,7 @@ const Projects = () => {
             transition={{ duration: 0.5 }}
             whileHover={{ scale: 1.05 }} */}
         {PROJECTS.map((project) => (
-          <motion.div
-            variants={cardVariants}
+          <div
             key={project.id}
             className="group relative overflow-hidden h-96 rounded-3xl"
           >
@@ -97,7 +82,7 @@ const Projects = () => {
                 </div>
               </a>
             </motion.div>
-          </motion.div>
+          </div>
         ))}
       </motion.div>
     </section>
