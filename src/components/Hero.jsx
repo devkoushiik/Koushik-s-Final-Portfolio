@@ -1,12 +1,6 @@
 import { HERO } from "../constants";
 import koushikImg from "../assets/koushik-min.jpg";
 import { motion } from "framer-motion";
-{
-  /* initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-            whileHover={{ scale: 1.05 }} */
-}
 
 const Hero = () => {
   return (
