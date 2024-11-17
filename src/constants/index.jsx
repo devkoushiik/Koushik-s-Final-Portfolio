@@ -93,6 +93,18 @@ export const PROJECTS = [
     },
     githubLink: "https://github.com/devkoushiik/RTK_cart",
   },
+  {
+    id: 6,
+    name: "Job Tracking App",
+    description:
+      "A personal job tracking system, that can track your job application, job interviews, and job offers.it has 3 states, pending, interview, and declined. you can see also your stats.",
+    image: projectImage1,
+    live: {
+      preview: "For Preview Click Here",
+      link: "https://jobland-dkmx.onrender.com",
+    },
+    githubLink: "https://github.com/devkoushiik/JobLand--MERN",
+  },
 ];
 
 export const BIO = [
