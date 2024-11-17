@@ -4,11 +4,12 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
-import projectImage1 from "../assets/project1.jpeg";
-import projectImage2 from "../assets/project2.jpeg";
-import projectImage3 from "../assets/project3.png";
-import projectImage4 from "../assets/project4.jpeg";
-import projectImage6 from "../assets/project7.jpg";
+import projectImage1 from "../assets/project.jpeg";
+import projectImage2 from "../assets/project1.jpeg";
+import projectImage3 from "../assets/project2.jpeg";
+import projectImage4 from "../assets/project5.jpeg";
+import projectImage6 from "../assets/project6.jpeg";
+import projectImage7 from "../assets/project7.jpg";
 // import projectImage5 from "../assets/project5.jpeg";
 // import projectImage6 from "../assets/project6.jpeg";
 
@@ -98,7 +99,7 @@ export const PROJECTS = [
     name: "Job Tracking App",
     description:
       "A personal job tracking system, that can track your job application, job interviews, and job offers.it has 3 states, pending, interview, and declined. you can see also your stats.",
-    image: projectImage1,
+    image: projectImage7,
     live: {
       preview: "For Preview Click Here",
       link: "https://jobland-dkmx.onrender.com",
