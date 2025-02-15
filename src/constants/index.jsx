@@ -106,6 +106,30 @@ export const PROJECTS = [
     },
     githubLink: "https://github.com/devkoushiik/JobLand--MERN",
   },
+  {
+    id: 7,
+    name: "A nike shoe landing page",
+    description:
+      "A nike shoe landing page that show latest product images and details, it has a smooth scrolling effect and a responsive design.",
+    image: projectImage3,
+    live: {
+      preview: "For Preview Click Here",
+      link: "https://nikexkoushik.netlify.app/",
+    },
+    githubLink: "https://github.com/devkoushiik/Nike_Static",
+  },
+  {
+    id: 8,
+    name: "A mini weather app",
+    description:
+      "A mini weather app that can show you the current weather of your location, it can also show you the weather of any city you want.",
+    image: projectImage1,
+    live: {
+      preview: "For Preview Click Here",
+      link: "https://weatherxkoushik.netlify.app/",
+    },
+    githubLink: "https://github.com/devkoushiik/wheather",
+  },
 ];
 
 export const BIO = [
