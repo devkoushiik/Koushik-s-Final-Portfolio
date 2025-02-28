@@ -130,6 +130,17 @@ export const PROJECTS = [
     },
     githubLink: "https://github.com/devkoushiik/wheather",
   },
+  {
+    id: 9,
+    name: "Memory game app",
+    description: "A mini memory game app that can test your memory.",
+    image: projectImage3,
+    live: {
+      preview: "For Preview Click Here",
+      link: "https://memoryxkoushik.netlify.app/",
+    },
+    githubLink: "https://github.com/devkoushiik/memoryGame",
+  },
 ];
 
 export const BIO = [
