@@ -44,7 +44,7 @@ export const PROJECTS = [
       preview: "For Preview Click Here",
       link: "https://work-timer-final.vercel.app/",
     },
-    githubLink: "https://github.com/devkoushiik/work-timer-final",
+    githubLink: "https://github.com/devkoushiik/WorkTimerFinal",
   },
   {
     id: 1,
