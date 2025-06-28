@@ -36,15 +36,15 @@ export const HERO = {
 export const PROJECTS = [
   {
     id: 5,
-    name: "Game showcase Platform",
+    name: "Work time calculator",
     description:
-      "A game showcase website using the RAWG API, which allows users to browse and discover video games with detailed information like ratings, genres, and release dates.",
+      "This is for student who wants to track his work, like how many hours he has learn or work today. this is a full stack application.",
     image: projectImage6,
     live: {
       preview: "For Preview Click Here",
-      link: "https://gamehubxkoushik.netlify.app",
+      link: "https://work-timer-final.vercel.app/",
     },
-    githubLink: "https://github.com/devkoushiik/GameHub",
+    githubLink: "https://github.com/devkoushiik/work-timer-final",
   },
   {
     id: 1,
@@ -54,7 +54,7 @@ export const PROJECTS = [
     image: projectImage1,
     live: {
       preview: "For Preview Click Here",
-      link: "https://horizonxkoushik.netlify.app",
+      link: "https://horizon-ecommerce-phi.vercel.app",
     },
     githubLink: "https://github.com/devkoushiik/Horizon_Ecommerce",
   },
@@ -66,7 +66,7 @@ export const PROJECTS = [
     image: projectImage2,
     live: {
       preview: "For Preview Click Here",
-      link: "https://pizzaxkoushik.netlify.app",
+      link: "https://pizza-shop-gilt.vercel.app",
     },
     githubLink: "https://github.com/devkoushiik/Pizza_shop",
   },
@@ -78,7 +78,7 @@ export const PROJECTS = [
     image: projectImage3,
     live: {
       preview: "For Preview Click Here",
-      link: "https://cocktail-koushik.netlify.app/",
+      link: "https://cocktail-hub-eight.vercel.app",
     },
     githubLink: "https://github.com/devkoushiik/cocktail_hub",
   },
@@ -90,21 +90,21 @@ export const PROJECTS = [
     image: projectImage4,
     live: {
       preview: "For Preview Click Here",
-      link: "https://rtkxkoushik.netlify.app",
+      link: "https://rtk-cart-nu.vercel.app",
     },
     githubLink: "https://github.com/devkoushiik/RTK_cart",
   },
   {
     id: 6,
-    name: "Job Tracking App",
+    name: "Online Course Hour Tracker",
     description:
-      "A personal job tracking system, that can track your job application, job interviews, and job offers.it has 3 states, pending, interview, and declined. you can see also your stats.",
+      "A personal project to track your course and how many hours you have done to complete this. It's a amazing tracker application. this a full stack app",
     image: projectImage7,
     live: {
       preview: "For Preview Click Here",
-      link: "https://jobland-dkmx.onrender.com",
+      link: "https://course-tracker-beige.vercel.app",
     },
-    githubLink: "https://github.com/devkoushiik/JobLand--MERN",
+    githubLink: "https://github.com/devkoushiik/course-tracker",
   },
   {
     id: 7,
@@ -114,7 +114,7 @@ export const PROJECTS = [
     image: projectImage3,
     live: {
       preview: "For Preview Click Here",
-      link: "https://nikexkoushik.netlify.app/",
+      link: "https://nike-static.vercel.app",
     },
     githubLink: "https://github.com/devkoushiik/Nike_Static",
   },
@@ -126,7 +126,7 @@ export const PROJECTS = [
     image: projectImage1,
     live: {
       preview: "For Preview Click Here",
-      link: "https://weatherxkoushik.netlify.app/",
+      link: "https://weather-one-taupe.vercel.app",
     },
     githubLink: "https://github.com/devkoushiik/wheather",
   },
@@ -137,7 +137,7 @@ export const PROJECTS = [
     image: projectImage3,
     live: {
       preview: "For Preview Click Here",
-      link: "https://memoryxkoushik.netlify.app/",
+      link: "https://memory-game-silk-beta.vercel.app",
     },
     githubLink: "https://github.com/devkoushiik/memoryGame",
   },
