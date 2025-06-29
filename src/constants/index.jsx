@@ -104,7 +104,7 @@ export const PROJECTS = [
       preview: "For Preview Click Here",
       link: "https://course-tracker-beige.vercel.app",
     },
-    githubLink: "https://github.com/devkoushiik/course-tracker",
+    githubLink: "https://github.com/devkoushiik/course_tracker",
   },
   {
     id: 7,
