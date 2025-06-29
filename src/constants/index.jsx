@@ -34,18 +34,19 @@ export const HERO = {
 };
 
 export const PROJECTS = [
-  {
-    id: 5,
-    name: "Work time calculator",
+   {
+    id: 6,
+    name: "Online Course Hour Tracker",
     description:
-      "This is for student who wants to track his work, like how many hours he has learn or work today. this is a full stack application.",
-    image: projectImage6,
+      "A personal project to track your course and how many hours you have done to complete this. It's a amazing tracker application. this a full stack app",
+    image: projectImage7,
     live: {
       preview: "For Preview Click Here",
-      link: "https://work-timer-final.vercel.app/",
+      link: "https://course-tracker-beige.vercel.app",
     },
-    githubLink: "https://github.com/devkoushiik/WorkTimerFinal",
+    githubLink: "https://github.com/devkoushiik/course_tracker",
   },
+  
   {
     id: 1,
     name: "E-Commerce Platform",
@@ -83,6 +84,18 @@ export const PROJECTS = [
     githubLink: "https://github.com/devkoushiik/cocktail_hub",
   },
   {
+    id: 5,
+    name: "Work time calculator",
+    description:
+      "This is for student who wants to track his work, like how many hours he has learn or work today. this is a full stack application.",
+    image: projectImage6,
+    live: {
+      preview: "For Preview Click Here",
+      link: "https://work-timer-final.vercel.app/",
+    },
+    githubLink: "https://github.com/devkoushiik/WorkTimerFinal",
+  },
+  {
     id: 4,
     name: "Cart Feature",
     description:
@@ -94,18 +107,7 @@ export const PROJECTS = [
     },
     githubLink: "https://github.com/devkoushiik/RTK_cart",
   },
-  {
-    id: 6,
-    name: "Online Course Hour Tracker",
-    description:
-      "A personal project to track your course and how many hours you have done to complete this. It's a amazing tracker application. this a full stack app",
-    image: projectImage7,
-    live: {
-      preview: "For Preview Click Here",
-      link: "https://course-tracker-beige.vercel.app",
-    },
-    githubLink: "https://github.com/devkoushiik/course_tracker",
-  },
+ 
   {
     id: 7,
     name: "A nike shoe landing page",
