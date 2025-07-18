@@ -122,15 +122,15 @@ export const PROJECTS = [
   },
   {
     id: 8,
-    name: "A mini weather app",
+    name: "A mini game app for kids",
     description:
-      "A mini weather app that can show you the current weather of your location, it can also show you the weather of any city you want.",
+      "A fun and interactive math quiz app for kids that generates random addition, subtraction, multiplication, and division questions. Kids can test their skills by guessing the correct answer!",
     image: projectImage1,
     live: {
       preview: "For Preview Click Here",
-      link: "https://weather-one-taupe.vercel.app",
+      link: "https://game4kids.vercel.app/",
     },
-    githubLink: "https://github.com/devkoushiik/wheather",
+    githubLink: "https://github.com/devkoushiik/game4kids",
   },
   {
     id: 9,
